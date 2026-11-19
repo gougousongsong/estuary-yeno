@@ -1,0 +1,55 @@
+{
+  "evidenceClass": "LOCAL_CONTRACT_AND_SYNTHETIC_BOUNDARIES_ONLY",
+  "tests": 13,
+  "passed": true,
+  "officialSmoke": {
+    "contractSmokePassed": true,
+    "decision": {
+      "action": "BUY",
+      "outcome": "YES",
+      "maxCashUsd": 4.375941
+    }
+  },
+  "httpRequests": 100,
+  "httpP50Ms": 3.3872444182634354,
+  "httpMaxMs": 51.513029262423515,
+  "fixtureComparison": [
+    {
+      "fixture": "sample",
+      "estuary": {
+        "action": "BUY",
+        "outcome": "YES",
+        "maxCashUsd": 4.375941
+      },
+      "house": {
+        "action": "BUY",
+        "outcome": "YES",
+        "maxCashUsd": 2.6125
+      }
+    },
+    {
+      "fixture": "future_reference",
+      "estuary": {
+        "action": "HOLD"
+      },
+      "house": {
+        "action": "BUY",
+        "outcome": "YES",
+        "maxCashUsd": 2.6125
+      }
+    },
+    {
+      "fixture": "partial_exit",
+      "estuary": {
+        "action": "SELL"
+      },
+      "house": {
+        "action": "HOLD"
+      }
+    }
+  ],
+  "officialReplayAvailable": false,
+  "officialScore": null,
+  "qualification": null,
+  "note": "Handcrafted fixtures are not recorded market data, backtests, or competition performance."
+}

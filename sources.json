@@ -1,0 +1,25 @@
+{
+  "verificationFixtures": [
+    {
+      "file": "yeno-house-bot-v1.py",
+      "url": "https://builderr.ai/downloads/yeno-house-bot-v1.py",
+      "sha256": "e392148613a87a6ca2d4491bf8a0afb3075059d2f5b00c6d2451dd1243e42046"
+    },
+    {
+      "file": "yeno-smoke-test.py",
+      "url": "https://builderr.ai/downloads/yeno-smoke-test.py",
+      "sha256": "8394a98d634e17126b142116b4864365773735eecf60ea364da6d988e6f8a6c6"
+    },
+    {
+      "file": "yeno-sample-observation.json",
+      "url": "https://builderr.ai/downloads/yeno-sample-observation.json",
+      "sha256": "cec9fdff2f5b641ec72c16f28fc9aab62c1a95b1058d4c5e03c2a5c3c1cb8b4f"
+    },
+    {
+      "file": "yeno-evaluator-contract.md",
+      "url": "https://builderr.ai/downloads/yeno-evaluator-contract.md",
+      "sha256": "5b8b43a80a75bb294d5a5b5564ae0376dc938d10a0356b60740de77d1ac53ad7"
+    }
+  ],
+  "licenseStatus": "No explicit license found in inspected kit source headers or contract. Upstream fixtures excluded from submission archive; fetch from original URLs for verification."
+}
